@@ -1,0 +1,42 @@
+.menu{
+
+list-style: none;
+
+padding: 0;
+
+text-align:center; /*Alineacion de texto*/
+
+margin: auto;
+background: rgb(103,231,226);
+background: linear-gradient(293deg, rgba(103,231,226,1) 0%, rgba(53,124,57,0.8365721288515406) 46%, rgba(70,224,237,1) 100%);;
+
+border-radius: .5ex; /*re*/
+}
+
+.menu li a{
+
+text-emphasis: none;
+
+color: black;
+
+padding : 20px;/*re*/
+/*El padding en CSS es una propiedad o relleno 
+que se crea alrededor del contenido de un elemento dentro de 
+los bordes definidos y sirve para dar formato y diseño a una página web.*/
+
+display: block;
+
+border-radius: 15em;/*re*/
+
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+
+}
+
+.menu li a:hover{
+background: rgb(59,133,61);
+background: linear-gradient(293deg, rgba(59,133,61,1) 19%, rgba(109,207,115,0.8365721288515406) 46%, rgba(71,224,235,1) 80%, rgba(70,224,237,1) 100%);
+}
